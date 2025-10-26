@@ -13,7 +13,6 @@ A modern, responsive personal portfolio website built with **Next.js**, **TypeSc
 ## 💻 Features
 
 - Fully responsive design for mobile, tablet, and desktop.
-- Dark/light mode toggle.
 - Interactive **Hero Section** with typing animation for roles.
 - **About Me** section with profile image and personal details.
 - **Education Section** with timeline layout and animated entries.
@@ -30,28 +29,6 @@ A modern, responsive personal portfolio website built with **Next.js**, **TypeSc
 - **Animations:** Framer Motion  
 - **Icons:** Lucide React, React Icons  
 - **Deployment:** Vercel  
-
----
-
-## 📂 Project Structure
-
-├─ /app
-│ ├─ components/
-│ │ ├─ HeroSection.tsx
-│ │ ├─ About.tsx
-│ │ ├─ EducationSection.tsx
-│ │ ├─ Contact.tsx
-│ │ └─ Footer.tsx
-│ ├─ page.tsx
-├─ /public
-│ ├─ images/
-│ │ ├─ picture01.jpg
-│ │ ├─ about.jpg
-│ │ └─ projects/
-├─ package.json
-├─ tsconfig.json
-└─ tailwind.config.js
-
 
 ---
 
