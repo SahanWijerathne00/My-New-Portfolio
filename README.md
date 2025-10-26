@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Website
 
-## Getting Started
+A modern, responsive personal portfolio website built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. This project showcases my skills, experience, projects, and contact information in a professional and interactive format.
 
-First, run the development server:
+---
 
+## 🚀 Live Demo
+
+[View Live Website](https://personal-portfolio000.vercel.app/)  
+
+---
+
+## 💻 Features
+
+- Fully responsive design for mobile, tablet, and desktop.
+- Dark/light mode toggle.
+- Interactive **Hero Section** with typing animation for roles.
+- **About Me** section with profile image and personal details.
+- **Education Section** with timeline layout and animated entries.
+- **Projects Section** to display your work with live and GitHub links.
+- **Contact Form** with pre-filled sample details and social media links.
+- Smooth scrolling and animations using **Framer Motion**.
+- Clean and maintainable **TypeScript** code.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js, React, TypeScript, Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Icons:** Lucide React, React Icons  
+- **Deployment:** Vercel  
+
+---
+
+## 📂 Project Structure
+
+├─ /app
+│ ├─ components/
+│ │ ├─ HeroSection.tsx
+│ │ ├─ About.tsx
+│ │ ├─ EducationSection.tsx
+│ │ ├─ Contact.tsx
+│ │ └─ Footer.tsx
+│ ├─ page.tsx
+├─ /public
+│ ├─ images/
+│ │ ├─ picture01.jpg
+│ │ ├─ about.jpg
+│ │ └─ projects/
+├─ package.json
+├─ tsconfig.json
+└─ tailwind.config.js
+
+
+---
+
+## 📝 Getting Started
+
+### Prerequisites
+- Node.js >= 18.x
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
+git clone https://github.com/SahanWijerathne00/portfolio-website.git
+cd portfolio-website
+
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+
+
+Run the development server:
+
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
